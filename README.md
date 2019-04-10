@@ -1,7 +1,9 @@
 # Banka-API
 Documentation for Banka API v0.0.0
-##url: https://banka-ch-api.herokuapp.com
-##Root: /api/v1/
+url: https://banka-ch-api.herokuapp.com
+Root: /api/v1/
+
+
 - [Account](#account)
 	- [Create account](#create-account)
 	- [Delete account](#delete-account)

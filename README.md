@@ -188,9 +188,11 @@ Root: /api/v1/
 
 #Transaction
 
-##Credit Account
+## Credit Account
 
 POST /transaction/:account-number/credit
+
+
 ### Parameters
 
 | Name    | Type      | Description                          |
@@ -199,9 +201,11 @@ POST /transaction/:account-number/credit
 | transactionType			| String			|  <p>'Credit' or 'Debit'</p>							|
 
 
-##Debit Account
+## Debit Account
 
 POST /transaction/:account-number/debit
+
+
 ### Parameters
 
 | Name    | Type      | Description                          |

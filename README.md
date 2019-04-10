@@ -21,6 +21,10 @@ Root: /api/v1/
 	- [Retrieve user](#retrieve-user)
 	- [Retrieve users](#retrieve-users)
 
+- [Transaction](#transaction)
+	- [Credit account](#credit-account)
+	- [Debit account](#debit-account)
+	
 
 
 # Account
@@ -182,3 +186,25 @@ Root: /api/v1/
 
 
 
+#Transaction
+
+##Credit Account
+
+POST /transaction/:account-number/credit
+### Parameters
+
+| Name    | Type      | Description                          |
+|---------|-----------|--------------------------------------|
+| amount			| Integer			|  <p>Amount to Credit</p>							|
+| transactionType			| String			|  <p>'Credit' or 'Debit'</p>							|
+
+
+##Debit Account
+
+POST /transaction/:account-number/debit
+### Parameters
+
+| Name    | Type      | Description                          |
+|---------|-----------|--------------------------------------|
+| amount			| Integer			|  <p>Amount to debit</p>							|
+| transactionType			| String			|  <p>'Credit' or 'Debit'</p>							|

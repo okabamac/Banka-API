@@ -190,7 +190,7 @@ Root: /api/v1/
 
 ## Credit Account
 
-POST /transaction/:account-number/credit
+POST /transactions/:account-number/credit
 
 
 ### Parameters
@@ -203,7 +203,7 @@ POST /transaction/:account-number/credit
 
 ## Debit Account
 
-POST /transaction/:account-number/debit
+POST /transactions/:account-number/debit
 
 
 ### Parameters
